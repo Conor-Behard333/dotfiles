@@ -124,6 +124,9 @@ alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
 
+
+bindkey '^I^I' complete-word
+bindkey '^I' autosuggest-accept
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
